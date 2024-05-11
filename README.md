@@ -1,5 +1,9 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+I used redux tool kit to integrate http requests into a Redux Store.
+
+<img src="https://github.com/Massimo-Petralia/Pokedex-native/assets/44479460/f1209438-8b42-4bc9-888e-3d35cc33ee53" width="400" height="800">
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
