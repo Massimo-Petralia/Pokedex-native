@@ -24,14 +24,14 @@ export const PokemonList = ({
           style={{marginTop: 5}}
           data={data.results}
           renderItem={({item}) => (
-            <View style={{flexDirection: 'row', alignItems: 'center'}}>
-              <Text>{index++}.</Text>
+            <View>
               <Pressable
                 style={style.listItem}
                 onPress={() => {
                   onPokemonSelected(item.name);
                 }}>
-                <Text style={style.text}>{item.name}</Text>
+                <Text>{index++}. </Text>
+                <Text>{item.name}</Text>
               </Pressable>
             </View>
           )}

@@ -13,7 +13,7 @@ function App() {
   return (
     <React.StrictMode >
       <Provider store={store}>
-        <View >
+        <View>
         <View>
           <Text style={style.header}>My Pokedex</Text>
         </View>

@@ -15,7 +15,7 @@ export const PokemonDetails = ({pokemonName}: {pokemonName: string}) => {
   }
 
   return (
-    <View>
+    <View style={style.pokemonDetail}>
       <Text style={style.header}>{data.name}</Text>
       <Image
         style={{width: 100, height: 100}}
